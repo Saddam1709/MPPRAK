@@ -20,7 +20,6 @@ void loop()
   uint8_t ldrValue2 = LDR2_DigitalRead();
 
   if (ldrValue) { 
-Serial.println("Gerak 1");
 digitalWrite(7, HIGH);
 digitalWrite(5, HIGH);
 } else { 
@@ -28,7 +27,6 @@ digitalWrite(7, LOW);
 digitalWrite(5, LOW);
 }
 if (ldrValue2) { 
-Serial.println("Gerak 2");
 digitalWrite(6, HIGH);
 digitalWrite(4, HIGH);
 } else { 
